@@ -1,10 +1,17 @@
-.page-container {
-	position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-	margin: auto;
-	text-align: center;
-	background-color: #f7f2e7
+.mat-icon {
+    height: 48px !important;
+    width: 48px !important;
+    font-size: 48px !important;
+	line-height: 48px !important;
+
+	color: #393b44;
+}
+
+::ng-deep .mat-menu-panel {
+	background-color: #f1f3f8 !important;
+}
+
+.mat-menu-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }

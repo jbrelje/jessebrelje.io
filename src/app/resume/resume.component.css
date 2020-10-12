@@ -1,0 +1,33 @@
+.resume {
+	width: 50%;
+	margin: auto;
+}
+
+.resume-title {
+	color: #393b44;
+	font-size: 500%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.mat-expansion-panel-header {
+	padding: 20px;
+	font-size: 150%;
+	color: #393b44;
+	background-color: inherit;
+}
+
+.mat-expansion-panel-header-title {
+	color: inherit;
+}
+
+.mat-expansion-panel {
+	font-size: 110%;
+	color: #8d93ab;
+	background-color: inherit;
+	display: inherit;
+}
+
+.mat-divider {
+	color: #d6e0f0;
+}
