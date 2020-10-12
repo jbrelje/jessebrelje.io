@@ -1,10 +1,14 @@
+.mat-icon-button {
+	margin: 1%;
+}
+
 .mat-icon {
     height: 48px !important;
     width: 48px !important;
     font-size: 48px !important;
 	line-height: 48px !important;
 
-	color: #393b44;
+	color: #8d93ab;
 }
 
 ::ng-deep .mat-menu-panel {
@@ -12,6 +16,6 @@
 }
 
 .mat-menu-item {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px 30px 10px 30px;
+	color: #393b44;
 }
