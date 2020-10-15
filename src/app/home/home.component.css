@@ -1,18 +1,25 @@
-.resume {
+.home {
 	width: 50%;
 	margin: auto;
+	padding-bottom: 10%;
 }
 
-.resume-title {
+.home-title {
 	color: #393b44;
 	font-size: 500%;
 	text-align: center;
 	padding-bottom: 20px;
 }
 
+.mat-expansion-panel {
+	color: #8d93ab;
+	background-color: inherit;
+	display: inherit;
+}
+
 .mat-expansion-panel-header {
 	padding: 20px;
-	font-size: 150%;
+	font-size: 200%;
 	color: #393b44;
 	background-color: inherit;
 }
@@ -21,12 +28,11 @@
 	color: inherit;
 }
 
-.mat-expansion-panel {
-	font-size: 110%;
-	color: #8d93ab;
-	background-color: inherit;
-	display: inherit;
+::ng-deep .mat-expansion-panel-body {
+	font: inherit;
+	font-size: 150%;
 }
+
 
 .mat-divider {
 	color: #d6e0f0;
